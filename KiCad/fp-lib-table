@@ -1,0 +1,10 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MOLEX_CONNECTOR_01X02")(type "KiCad")(uri "${NEW3D}/molex_connector_2pin/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "VS12VBA1HST15R")(type "KiCad")(uri "${KICAD9_FOOTPRINT_DIR}/NewFootprints.pretty")(options "")(descr ""))
+  (lib (name "X1G0044810014")(type "KiCad")(uri "${NEW3D}/Crystal_X1G004481009712/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "XFL4020-102MEC")(type "KiCad")(uri "${KICAD9_FOOTPRINT_DIR}/NewFootprints.pretty")(options "")(descr ""))
+  (lib (name "Poly_Cap")(type "KiCad")(uri "${NEW3D}/ul_EEF-CX0D221R/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "pushbutton")(type "KiCad")(uri "${NEW3D}/newfootprints.pretty")(options "")(descr ""))
+  (lib (name "canConnector")(type "KiCad")(uri "${NEW3D}/newfootprints.pretty")(options "")(descr ""))
+)
