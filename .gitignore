@@ -1,0 +1,39 @@
+# ── STM32CubeIDE / build output ──
+Debug/
+Release/
+build/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.su
+
+# ── CubeIDE per-user / generated state ──
+# Keep .project, .cproject, and the .ioc — they define the project.
+.settings/
+*.launch
+
+# ── Logs / temp ──
+*.log
+*.tmp
+
+# ── KiCad ──
+*-backups/
+*.kicad_prl
+fp-info-cache
+*.bak
+_autosave-*
+*.000
+*.net
+
+# ── SolidWorks lock / temp files ──
+~$*
+*~
+
+# ── OS junk ──
+.DS_Store
+Thumbs.db
+desktop.ini

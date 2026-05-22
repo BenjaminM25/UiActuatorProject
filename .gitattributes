@@ -1,0 +1,28 @@
+# Normalize text line endings, but auto-detect to avoid false "will be replaced" churn
+* text=auto
+
+# SolidWorks (LFS)
+*.SLDPRT filter=lfs diff=lfs merge=lfs -text
+*.SLDASM filter=lfs diff=lfs merge=lfs -text
+*.SLDDRW filter=lfs diff=lfs merge=lfs -text
+
+# STEP (LFS)
+*.step filter=lfs diff=lfs merge=lfs -text
+*.stp filter=lfs diff=lfs merge=lfs -text
+
+# Other 3D / binary CAD
+*.wrl filter=lfs diff=lfs merge=lfs -text
+*.stl filter=lfs diff=lfs merge=lfs -text
+
+# PDFs (LFS) — note the leading * you were missing
+*.pdf filter=lfs diff=lfs merge=lfs -text
+
+# KiCad (text, force LF so they don't churn between machines)
+*.kicad_pcb text eol=lf
+*.kicad_sch text eol=lf
+*.kicad_pro text eol=lf
+*.kicad_prl text eol=lf
+
+# Draw.io (text)
+*.drawio text eol=lf
+*.drawio.bkp text eol=lf
